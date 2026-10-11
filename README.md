@@ -32,3 +32,7 @@ py -m pytest tests/ -v
 
 # Run the end-to-end matching pipeline
 py -m src.engine
+
+# Run the web monitoring dashboard
+py web_app.py
+ ```
